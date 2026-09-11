@@ -21,8 +21,8 @@ blinkit-sales-analysis/
 ├── README.md
 ├── data/
 │   └── blinkit_grocery_data.csv        # Raw dataset (8,523 rows)
-├── sql/
-│   └── queries.sql                     # Data cleaning + KPI queries
+├── docs/
+│   └── query-doc.docx                  # Data cleaning + KPI queries
 └── dashboard/
     └── blinkit-sales-analysis.pbix     # Power BI dashboard
 ```
@@ -42,7 +42,7 @@ The `Item_Fat_Content` field contained inconsistent category labels (`LF`, `low 
 
 ## 🔍 Analysis Breakdown
 
-The SQL queries in [`sql/queries.sql`](sql/queries.sql) cover:
+The SQL queries in [`docs/query-doc.docx`](docs/query-doc.docx) cover:
 
 1. Total sales by **fat content**
 2. Total sales by **item type**
@@ -69,10 +69,3 @@ The SQL queries in [`sql/queries.sql`](sql/queries.sql) cover:
 | Total Sales | Sales value for the item |
 | Rating | Customer rating |
 
-## 📊 Dashboard
-
-*Add a screenshot of your Power BI dashboard here:*
-
-```markdown
-![Dashboard](images/dashboard-screenshot.png)
-```
